@@ -1,0 +1,109 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Overview {
+  background-color: #FFC88E;}
+
+#Abilities {
+  background-color: #FFA68E;}
+
+#Story {
+  background-color: #FF978E;}
+
+#Extras {
+  background-color: #CD8888;}
+
+
+#crossfade img {
+    position: absolute;
+    top: auto;
+
+}
+ 
+#crossfade img.top{
+    animation-name: cfswitch;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#crossfade img.bottom {
+    animation-name: cfswitch;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+@keyframes cfswitch{
+    0%   {opacity: 1;}
+    45%  {opacity: 1;}
+    55%  {opacity: 0;}
+    100% {opacity: 0;}
+  }
+
+  table{
+    height: 50%;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #FFC99E;
+}
+
+tr:hover {
+    background-color: #FFC96E;}
+
+#nameH2 {
+  text-align: 'center';
+  font-family: Calibri;
+  font-size: 70px;
+  color: #1A4A70;
+}
+
+#nameHeader {
+  text-align: 'center';
+  font-family: Trattatello;
+  font-size: 100px;
+   -webkit-animation:colorchange 4s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% { color: #1A4A70; }
+  40% { color: #381A70;  }
+  75% { color: #FC495C; }
+  100% { color: #FF7070; }
+
