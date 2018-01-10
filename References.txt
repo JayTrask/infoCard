@@ -1,1 +1,10 @@
 A list of references I used during this project.
+
+https://codepen.io/raaasin/pen/quvHr
+http://www.simplehtmlguide.com/cheatsheet.php
+https://websitesetup.org/css3-cheat-sheet/
+http://htmlcolorcodes.com/
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_full_page_tabs
+https://www.w3schools.com/howto/howto_js_full_page_tabs.asp
+https://www.w3schools.com/css/css_table.asp
+https://www.w3schools.com/css/tryit.asp?filename=trycss_table_border
